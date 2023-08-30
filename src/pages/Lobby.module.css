@@ -1,0 +1,102 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.topContainer {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bottomContainer {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.chatContainer {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    flex-grow: 6;
+}
+
+@media (max-width: 767px) {
+    .bottomContainer {
+        flex-direction: column;
+    }
+}
+
+.userContainer {
+    background-color : #fff;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    flex-grow: 2;
+    flex-basis: auto;
+    text-align: left;
+    padding: 15px;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    background-color: gradient(#00ffd0, #eb0e0e);
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 5px;
+}
+
+.userCasing {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    gap: 10px;
+}
+
+.userName {
+    font-size: 20px;
+    align-self: center;
+    padding: 20px;
+    flex-grow: 8;
+}
+
+.lobbyHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.title {
+    font-size: 36px;
+    color: #333;
+}
+
+.button {
+    padding: 14px 28px;
+    background-color: #e91e63;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #ff4081;
+}
+
+.lobbyContent {
+    margin-top: 40px;
+    color: #888;
+}
+
+.lobbyContent p {
+    margin: 14px 0;
+}
