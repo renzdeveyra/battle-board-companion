@@ -117,7 +117,7 @@ useEffect(() => {
                     name: playerName
                 });
             } catch (error) {
-                console.error("Error updating document:", error);
+                console.error("Error updating the document:", error);
             }
         };
         console.log("Player Name: ", playerName);
